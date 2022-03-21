@@ -18,4 +18,5 @@ from django.urls import path,include
 
 urlpatterns = [
     path('', include('Manageitems.urls')),
+    path('aboutus/', include('Manageitems.urls')),
 ]
